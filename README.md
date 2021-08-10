@@ -1,2 +1,0 @@
-# tedflix
-Movie Data application
