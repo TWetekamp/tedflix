@@ -1,4 +1,24 @@
 header {
     background-color: gray;
     padding: 20px;
+      /* background: black; */
+      /* color: black; */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header li {
+    font-size: x-large;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left:   0px;
+    margin: 1rem;
+    color: navajowhite;
+}
+
+.banner {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    align-content: center;
 }

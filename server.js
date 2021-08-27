@@ -25,9 +25,21 @@ server.get('/heartbeat', ( req, res ) => {
 
 // Get films from films table
 server.get('/server/films', async ( req, res ) => {
-    const stuff = await Film.findAll();
-    res.json(stuff);
+    const movies = await Film.findAll();
+    res.json(movies);
 });
+
+// Get films by Title fragment from films table
+server.get('/server/films/:title', async (req, res) => {
+    const movieTitle = req.params.title;
+    const moviesSearched = await Film.findAll({
+        where: {
+            title: movieTitle
+        }
+    });
+    res.json(moviesSearched);
+});
+
 
 server.listen(PORT, () => {
     console.log(`The server is listening on port ${PORT}.`)
