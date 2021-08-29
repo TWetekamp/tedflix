@@ -10,7 +10,7 @@ function Films ({ updateMoviesList, films }) {
     },[])
 
     const getFilms = () => {
-        fetch("http://localhost:8080/server/films")
+        fetch("/server/films")
         .then(raw => raw.json())
         .then(response => updateMoviesList(response))
     }
