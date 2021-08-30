@@ -1,7 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
-const { Film } = require('./models')
+const { Film } = require('./models');
+const { Op } = require("sequelize");
 
 const server = express();
 
@@ -29,13 +30,34 @@ server.get('/server/films', async ( req, res ) => {
     res.json(movies);
 });
 
+// Get films by Title from films table
+// server.get('/server/films/:title', async (req, res) => {
+//     const movieTitle = req.params.title;
+//     const moviesSearched = await Film.findAll({
+//         where: {
+//             title: movieTitle
+//         }
+//     });
+//     res.json(moviesSearched);
+// });
+
 // Get films by Title fragment from films table
 server.get('/server/films/:title', async (req, res) => {
     const movieTitle = req.params.title;
     const moviesSearched = await Film.findAll({
-        where: {
-            title: movieTitle
-        }
+            [Op.or]: [
+              {
+                title: {
+                  [Op.like]: `${movieTitle}%`,
+                }
+              },
+              {
+                description: {
+                  [Op.like]: `%${movieTitle}%`,
+                }
+              }
+            ]
+          // title LIKE 'Boat%' OR description LIKE '%boat%'
     });
     res.json(moviesSearched);
 });

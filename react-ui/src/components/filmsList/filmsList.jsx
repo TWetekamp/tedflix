@@ -87,7 +87,7 @@ function FilmsList ( props ) {
                 <img src={mp13} alt="The Godfather" />
                 <img src={mp14} alt="Mullholland Dr." />
                 </div>
-                <div className="search-container">
+                {/* <div className="search-container">
                 <form className="search-form" id="search-films-form">
                     <p>
                     <label for="Search-films"></label>  
@@ -95,7 +95,7 @@ function FilmsList ( props ) {
                     <button className="search-button" id="find-films-btn" type="submit">Find Films</button>
                     </p>
                 </form>
-                </div>
+                </div> */}
                 <div className="posters-right">
                 <img src={mp15} alt="The Matrix Reloaded" />
                 <img src={mp16} alt="Inception" />
