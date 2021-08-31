@@ -64,9 +64,12 @@ TedFlix provides information and commentary about a variety of movies from vario
     git clone https://github.com/TWetekamp/tedflix.git
 
 ### From the application root folder
-        npm i dotenv express express-session
-        npx create-react-app react-ui --use-npm
-        npm i -D nodemon sequelize-cli
+    npm i dotenv express express-session
+    npx create-react-app react-ui --use-npm
+    npm i -D nodemon sequelize-cli
+    npx sequelize-cli db:create
+    npx sequelize-cli db:migrate
+    npx sequelize-cli db:seed:all
 
 ### Go into package.json and paste this in scripts
     "dev": "nodemon server.js"

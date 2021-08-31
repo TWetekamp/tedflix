@@ -9,7 +9,7 @@ const About = () => {
                     <br></br>
                     <div className="movie-logos">
                         <a href="https://www.hbo.com/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/422px-HBO_logo.svg.png" alt="HBO logo" height="45" /></a>
-                        <a href="https://www.tcm.com/" target="_blank" rel="noreferrer"><img src="http://www.csadesign.com/images/tcm_logo1.gif" alt="TCM logo" height="45" /></a>
+                        <a href="https://www.tcm.com/" target="_blank" rel="noreferrer"><img src="https://res.cloudinary.com/clearlink/image/upload/f_auto,q_auto/w_640/v1589303472/Dish/images/isolated/~png-logo-exports-for-channel-page-hero/TCM-Default-Black_2x_x0rxwb" alt="TCM logo" height="45" /></a>
                         <a href="https://www.imdb.com/" target="_blank" rel="noreferrer"><img src="https://m.media-amazon.com/images/G/01/IMDb/BG_square._CB1509067564_SY230_SX307_AL_.png" alt="IMDB logo" height="45" /></a>
                         <a href="https://www.mgm.com/" target="_blank" rel="noreferrer"><img src="https://www.nme.com/wp-content/uploads/2021/03/MGM-Leo-the-lion-logo-696x442.jpg" alt="MGM logo" height="45" /></a>
                         <a href="https://www.sonypictures.com/" target="_blank" rel="noreferrer"><img src="https://entertainment.time.com/wp-content/uploads/sites/3/2012/09/columbia.jpg?resize=720,480" alt="Columbia Pictures logo" height="45" /></a>
