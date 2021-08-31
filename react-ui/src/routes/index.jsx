@@ -1,6 +1,7 @@
 import { Route } from 'react-router-dom';
 import Home from "./home/home"
 import About from "./about/about"
+import Credits from "./credits/credits";
 import Films from "../components/films/films"
 
 const Routes = () => {
@@ -18,6 +19,11 @@ const Routes = () => {
          <Route
           path="/about"
           render={() => <About />}
+          />
+          <Route 
+          exact={true}
+          path="/credits"
+          render={() => <Credits />}
         />
       </>
       );  

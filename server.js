@@ -42,24 +42,25 @@ server.get('/server/films', async ( req, res ) => {
 // });
 
 // Get films by Title fragment from films table
-server.get('/server/films/:title', async (req, res) => {
-    const movieTitle = req.params.title;
-    const moviesSearched = await Film.findAll({
-            [Op.or]: [
-              {
-                title: {
-                  [Op.like]: `${movieTitle}%`,
-                }
-              },
-              {
-                description: {
-                  [Op.like]: `%${movieTitle}%`,
-                }
-              }
-            ]
-          // title LIKE 'Boat%' OR description LIKE '%boat%'
-    });
-    res.json(moviesSearched);
+server.get('/server/films/search', (req, res) => {
+    const search = req.body.search;
+    // console.log(search);
+    // const moviesSearched = await Film.findAll({
+    //         [Op.or]: [
+    //           {
+    //             title: {
+    //               [Op.like]: `${movieTitle}%`,
+    //             }
+    //           },
+    //           {
+    //             description: {
+    //               [Op.like]: `%${movieTitle}%`,
+    //             }
+    //           }
+    //         ]
+    //       // title LIKE 'Boat%' OR description LIKE '%boat%'
+    // });
+    res.json(search);
 });
 
 

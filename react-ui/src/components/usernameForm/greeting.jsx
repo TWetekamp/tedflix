@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 
 const Greeting = ({ username }) => {
-    return <p>Hello { username }</p>
+    return <p>Hello { username }! Welcome to TEDFLIX!</p>
 };
 
 const mapStateToProps = state => ({

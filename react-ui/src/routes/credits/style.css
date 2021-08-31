@@ -1,11 +1,13 @@
-.about-page {
+.credits-page {
+    border: solid 2px crimson;
     background: white;
     color: black;
+    font-size: x-large;
     /* background-image: url('../../assets/noir-movie-collage.jpg');
     background-repeat: no-repeat center center fixed; */
-    height: 28rem;
+    height: 50rem;
     /* opacity: 0.85; */
-    padding-left: 4rem;
-  
-    /* margin: 10rem; */
+    padding-top: 12rem;
+    padding-left: 8rem;
+    width: 100%;
 }

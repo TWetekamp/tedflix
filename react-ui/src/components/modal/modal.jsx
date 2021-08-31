@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import './style.css';
 
 const Modal = ({ handleModal, movieDetail }) => {
 
-console.log(movieDetail);
+// console.log(movieDetail);
 
   return (
     <>

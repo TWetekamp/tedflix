@@ -1,5 +1,6 @@
 header {
-    /* background-color: black; */
+    /* border: solid 2px crimson; */
+    background-color: black;
     background-image: url('../../assets/rw1.gif');
     padding: 20px;
       /* background: black; */
@@ -7,10 +8,12 @@ header {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       position: fixed;
       width: 100%;
+      text-align: center;
 }
 
 header li {
-    font-size: x-large;
+  /* border: solid 2px crimson; */
+    font-size: xx-large;
     display: inline-block;
     flex-direction: row;
     justify-content: center;
@@ -21,7 +24,50 @@ header li {
 }
 
 .banner {
+    /* border: solid 2px crimson; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: x-large;
-    align-content: center;
+    font-size: xx-large;
+    align-items: right;
+    justify-content:space-around;
+    color: white;
 }
+
+.banner2 {
+    /* border: solid 2px crimson; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.top-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* background-image: url('../../assets/rw1.gif'); */
+}    
+
+.posters-left {
+    /* border: solid 2px green; */
+    height: 8rem;
+    width: 24rem;
+    margin: 2rem;
+  }
+  
+  .posters-left img {
+    height: 8rem;
+   }
+    
+  .posters-right {
+    /* border: solid 2px green;   */
+    height: 8rem;
+    width: 24rem;
+    margin: 2rem;
+  }
+  
+  .posters-right img {
+    height: 8rem;
+  }

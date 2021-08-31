@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './style.css';
 
@@ -54,26 +54,40 @@ function Header() {
   return (
     <div>
       <header>
-        <div className="banner">TedFlix</div>
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/films">Films</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-        </ul>
+        <div className="banner">TEDFLIX MOVIES</div>
+        <div className="banner2">
+          <div className="posters-left">
+              <img src={mp1} alt="King Kong" />
+              <img src={mp2} alt="It Happened One Night" />
+              <img src={mp3} alt="The Godfather" />
+              <img src={mp4} alt="Mullholland Dr." />
+          </div>
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/films">Films</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About</NavLink>
+            </li>
+          </ul>
+          <div className="posters-right">
+              <img src={mp5} alt="The Matrix Reloaded" />
+              <img src={mp6} alt="Inception" />
+              <img src={mp7} alt="Winchester '73" />
+              <img src={mp8} alt="A Fistful of Dollars" />
+          </div>
+        </div>
         {/* <div className="top-container">
                 <div className="posters-left">
-                <img src={mp11} alt="King Kong" />
-                <img src={mp12} alt="It Happened One Night" />
-                <img src={mp13} alt="The Godfather" />
-                <img src={mp14} alt="Mullholland Dr." />
-                </div>
-                <div className="search-container">
+                <img src={mp1} alt="King Kong" />
+                <img src={mp2} alt="It Happened One Night" />
+                <img src={mp3} alt="The Godfather" />
+                <img src={mp4} alt="Mullholland Dr." />
+                </div> */}
+                {/* <div className="search-container">
                 <form className="search-form" id="search-films-form" onSubmit={handleSubmit}>
                     <p>
                     <label for="Search-films"></label>  
@@ -81,12 +95,12 @@ function Header() {
                     <button className="search-button" id="find-films-btn" type="submit">Find Films</button>
                     </p>
                 </form>
-                </div>
-                <div className="posters-right">
-                <img src={mp15} alt="The Matrix Reloaded" />
-                <img src={mp16} alt="Inception" />
-                <img src={mp17} alt="Winchester '73" />
-                <img src={mp18} alt="A Fistful of Dollars" />
+                </div> */}
+                {/* <div className="posters-right">
+                <img src={mp5} alt="The Matrix Reloaded" />
+                <img src={mp6} alt="Inception" />
+                <img src={mp7} alt="Winchester '73" />
+                <img src={mp8} alt="A Fistful of Dollars" />
                 </div>
             </div> */}
       </header>

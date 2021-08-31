@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.81d5dda8.chunk.css",
-    "main.js": "/static/js/main.8a2ef84b.chunk.js",
-    "main.js.map": "/static/js/main.8a2ef84b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d865f8ec.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d865f8ec.js.map",
-    "static/js/2.992c7201.chunk.js": "/static/js/2.992c7201.chunk.js",
-    "static/js/2.992c7201.chunk.js.map": "/static/js/2.992c7201.chunk.js.map",
-    "static/js/3.bd73ba24.chunk.js": "/static/js/3.bd73ba24.chunk.js",
-    "static/js/3.bd73ba24.chunk.js.map": "/static/js/3.bd73ba24.chunk.js.map",
+    "main.css": "/static/css/main.f2016a72.chunk.css",
+    "main.js": "/static/js/main.a3728e27.chunk.js",
+    "main.js.map": "/static/js/main.a3728e27.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.29536fe4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.29536fe4.js.map",
+    "static/js/2.53c7cb58.chunk.js": "/static/js/2.53c7cb58.chunk.js",
+    "static/js/2.53c7cb58.chunk.js.map": "/static/js/2.53c7cb58.chunk.js.map",
+    "static/js/3.db0ca3a0.chunk.js": "/static/js/3.db0ca3a0.chunk.js",
+    "static/js/3.db0ca3a0.chunk.js.map": "/static/js/3.db0ca3a0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.81d5dda8.chunk.css.map": "/static/css/main.81d5dda8.chunk.css.map",
-    "static/js/2.992c7201.chunk.js.LICENSE.txt": "/static/js/2.992c7201.chunk.js.LICENSE.txt",
+    "static/css/main.f2016a72.chunk.css.map": "/static/css/main.f2016a72.chunk.css.map",
+    "static/js/2.53c7cb58.chunk.js.LICENSE.txt": "/static/js/2.53c7cb58.chunk.js.LICENSE.txt",
     "static/media/af19330407_King_Kong_Poster.51435ac3.jpg": "/static/media/af19330407_King_Kong_Poster.51435ac3.jpg",
     "static/media/cr19340223_Gable_ithapponepm_poster.023b0a79.jpg": "/static/media/cr19340223_Gable_ithapponepm_poster.023b0a79.jpg",
     "static/media/dc19720324_Godfather_ver1.531feae8.jpg": "/static/media/dc19720324_Godfather_ver1.531feae8.jpg",
@@ -23,9 +23,9 @@
     "static/media/we19641016_Fistful_Macaroni.38aa56fa.jpg": "/static/media/we19641016_Fistful_Macaroni.38aa56fa.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d865f8ec.js",
-    "static/js/2.992c7201.chunk.js",
-    "static/css/main.81d5dda8.chunk.css",
-    "static/js/main.8a2ef84b.chunk.js"
+    "static/js/runtime-main.29536fe4.js",
+    "static/js/2.53c7cb58.chunk.js",
+    "static/css/main.f2016a72.chunk.css",
+    "static/js/main.a3728e27.chunk.js"
   ]
 }

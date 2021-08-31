@@ -1,4 +1,23 @@
-* {
-    /* background: black; */
-      background-image: url('../../assets/rw1.gif');
-  }
+.home-page {
+    background: white;
+    color: black;
+    /* background-image: url('../../assets/noir-movie-collage.jpg');
+    background-repeat: no-repeat center center fixed; */
+    height: 28rem;
+    /* opacity: 0.85; */
+    padding-left: 4rem;
+  
+    /* margin: 10rem; */
+}
+
+.movie-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.greeting {
+  background: black;
+  color: white;
+}
